@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+main {
+    margin-left: 30%;
+    height: 700px;
+    width: 700px;
+    display: flex;
+}
+
+.main-div--logo{
+    height: 200px;
+    width: 200px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.main-div--body{
+    height: 100%;
+    width: 67%;
+}
+.body-text--front{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+.body-text--welcome{
+    font-size: 40px;
+}
+.front-text--p{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+a{
+    text-decoration: none;
+    color: rgb(2, 199, 199);
+}
+.body-input--all{
+    height: 200px;
+    width: 100%;
+}
+.input-text--mail{
+    width: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.input-box--mail{
+    height: 30px;
+    width: 100%;
+    display: flex;
+
+}
+#input-mail{
+    width: 90%;
+}
+.input-text--user{
+    width: 16%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.input-box--user{
+    height: 30px;
+    width: 100%;
+    display: flex;
+
+}
+#input-user{
+    width: 90%;
+}
+.input-text--password{
+    width: 16%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.input-box--password{
+    height: 30px;
+    width: 100%;
+    display: flex;
+
+}
+#input-password{
+    width: 90%;
+}
+.div-list--full{
+    margin-top: 20px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-div--all{
+    margin-top: 130px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: ;
+}
+.button-div{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-button{
+    height: 90%;
+    width: 90%;
+}
+.terms-div{
+    height: 70px;
+    width: 63%;
+}
+.footer-div--policy{
+    height: 40px;
+    width: 500px;
+display: flex;
+justify-content: flex-end;
+
